@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+}
+
+input, button {
+    margin: 10px;
+    width: 90%;
+    padding: 5px;
+}

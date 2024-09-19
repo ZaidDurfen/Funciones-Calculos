@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Programación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Superficie de un Triángulo -->
+        <h1>Calcular Superficie de un Triángulo</h1>
+        <label for="base">Base:</label>
+        <input type="number" id="base" placeholder="Ingrese la base"><br>
+        <label for="altura">Altura:</label>
+        <input type="number" id="altura" placeholder="Ingrese la altura"><br>
+        <button onclick="calcularSuperficie()">Calcular</button>
+        <p id="resultadoSuperficie"></p>
+
+        <!-- Datos Personales -->
+        <h1>Datos Personales</h1>
+        <input type="text" id="nombre" placeholder="Nombre"><br>
+        <input type="text" id="edad" placeholder="Edad"><br>
+        <input type="text" id="direccion" placeholder="Dirección"><br>
+        <input type="text" id="telefono" placeholder="Teléfono"><br>
+        <input type="email" id="correo" placeholder="Correo"><br>
+        <button onclick="mostrarDatos()">Mostrar Datos</button>
+        <div id="resultadoDatos"></div>
+
+        <!-- Cálculo de Nómina -->
+        <h1>Calcular Nómina</h1>
+        <p>Ingrese los sueldos de 5 trabajadores:</p>
+        <input type="number" id="trabajador1" placeholder="Trabajador 1"><br>
+        <input type="number" id="trabajador2" placeholder="Trabajador 2"><br>
+        <input type="number" id="trabajador3" placeholder="Trabajador 3"><br>
+        <input type="number" id="trabajador4" placeholder="Trabajador 4"><br>
+        <input type="number" id="trabajador5" placeholder="Trabajador 5"><br>
+        <button onclick="calcularNomina()">Calcular Nómina</button>
+        <p id="resultadoNomina"></p>
+
+        <!-- Promedio de un Alumno -->
+        <h1>Calcular Promedio</h1>
+        <p>Ingrese las calificaciones:</p>
+        <input type="number" id="materia1" placeholder="Materia 1"><br>
+        <input type="number" id="materia2" placeholder="Materia 2"><br>
+        <input type="number" id="materia3" placeholder="Materia 3"><br>
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+        <p id="resultadoPromedio"></p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
